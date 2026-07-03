@@ -10,6 +10,8 @@ import bodyParser from 'body-parser'
 import publicacion from './models/publicacion.js'
 
 //Mongoose configuration **********************************************************
+//Cambiar "Contrasenia" por la contraseña de la base de datos en MongoDB Atlas del cluster creado.
+
 var url = 'mongodb+srv://mibarrio2023:Contraseniamibarrio.y0qb8ww.mongodb.net/?'
 //Configuración para evitar fallos en la conexión con mongoDB
 mongoose.Promise = global.Promise;

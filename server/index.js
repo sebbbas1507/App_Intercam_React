@@ -10,6 +10,7 @@ import router from "./routes/message.js"
 
 
 //Configuracion Mongoose
+//Cambiar "Contrasenia" por la contraseña de la base de datos en MongoDB Atlas del cluster creado.
 var url =  "mongodb+srv://mibarrio2023:Contrasenia@mibarrio.y0qb8ww.mongodb.net/?"
 
 //Configuración para evitar fallos en la conexión con mongoDB
